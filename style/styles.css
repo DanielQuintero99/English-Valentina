@@ -1,3 +1,24 @@
 .navbar-expand-md .navbar-collapse {
     justify-content: center;
 }
+
+.navbar-dark .navbar-nav .nav-link {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #787878;
+    padding-bottom: 15px;
+}
+#local{
+    color: #79BCCF;
+    border-bottom: solid 5px #79BCCF; 
+}
+.navbar-dark .navbar-toggler-icon{
+    background-image: url(../nav/bx-menu.svg);
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+}
