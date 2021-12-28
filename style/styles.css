@@ -3,14 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
+
 /* INICIO ESTILOS BARRA DE NAVEGACION */
+.navbar-dark .navbar-brand{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #787878 !important;
+    padding-bottom: 15px;
+}
 
 .navbar-expand-md .navbar-collapse {
     justify-content: center;
- 
+
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -50,16 +62,17 @@ html{
 #fondo {
     position: absolute;
     width: 100%;
-    height: 90%; 
+    height: 90%;
     background-repeat: no-repeat;
     background-size: cover;
-    
- 
+
+
 }
-#fondo2{
+
+#fondo2 {
     position: absolute;
     width: 100%;
-    height: 90%; 
+    height: 90%;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -116,67 +129,78 @@ html{
 }
 
 
-.btn-lg{
+.btn-lg {
     padding: 0;
     font-size: 1.25rem;
     line-height: 2;
 }
-#borderBtn{
+
+#borderBtn {
     border-radius: 3.3rem;
     width: 280px;
     height: 46px;
 }
-.jumbotron{
+
+.jumbotron {
     border-radius: 5rem 5rem 5rem 5rem;
     background: linear-gradient(287.15deg, #fcd9b1 0%, #ff7474 100%);
     height: 100vh;
     margin-bottom: 20px;
 }
-.backgroundAbout{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url(../Images/aboutMe.jpg);
+
+.backgroundAbout {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Images/aboutMe.jpg);
     height: 100%;
     width: 100%;
     background-size: cover;
     background-position-y: center;
     background-position-x: center;
-    border-radius: 25px; 
+    border-radius: 25px;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    justify-content: center;   
-    
+    justify-content: center;
+
 }
 
-.tittleAbout{
-   color: #fcd9b1
+.tittleAbout {
+    color: #fcd9b1
 }
-.textAbout{
+
+.textAbout {
     color: white;
 }
-a:hover{
+
+a:hover {
     color: #C3E3FA !important;
 }
-.reviews{
-    top:20%
+
+.reviews {
+    top: 20%
 }
-.card-group{
+
+.card-group {
     align-items: center;
 }
-.card-text{
+
+.card-text {
     font-family: Montserrat;
     color: black;
 }
-.card-tittle{
+
+.card-tittle {
     font-family: Roboto;
 }
-.container-fluid{
+
+.container-fluid {
+    display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
 
 /* FIN ESTILOS LANDING */
 /* INICIO ESTILOS FOOTER */
-footer{
+footer {
     background: linear-gradient(287.15deg, #EFAFBC 0%, #C3E3FA 100%);
     font-family: Montserrat;
     font-style: normal;
@@ -189,27 +213,30 @@ footer{
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { 
-    .display-4{
+@media (max-width: 575.98px) {
+    .display-4 {
         font-size: 28px;
     }
-    #borderBtn{
+
+    #borderBtn {
         width: 225px;
     }
-    #fondo{
+
+    #fondo {
         height: 100%;
     }
-    footer{
+
+    footer {
         padding-left: 20px;
     }
 
- }
- .card-body{
-     padding: 0;
- }
- 
- .overflow-auto{
+}
+
+.card-body {
+    padding: 0;
+}
+
+.overflow-auto {
     width: 100%;
     height: 480px;
 }
- 
