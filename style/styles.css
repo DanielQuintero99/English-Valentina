@@ -56,6 +56,13 @@ html{
     
  
 }
+#fondo2{
+    position: absolute;
+    width: 100%;
+    height: 90%; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .display-4 {
     font-family: Montserrat;
@@ -139,6 +146,7 @@ html{
     justify-content: center;   
     
 }
+
 .tittleAbout{
    color: #fcd9b1
 }
@@ -148,6 +156,24 @@ html{
 a:hover{
     color: #C3E3FA !important;
 }
+.reviews{
+    top:20%
+}
+.card-group{
+    align-items: center;
+}
+.card-text{
+    font-family: Montserrat;
+    color: black;
+}
+.card-tittle{
+    font-family: Roboto;
+}
+.container-fluid{
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
 /* FIN ESTILOS LANDING */
 /* INICIO ESTILOS FOOTER */
 footer{
@@ -178,5 +204,12 @@ footer{
     }
 
  }
+ .card-body{
+     padding: 0;
+ }
  
+ .overflow-auto{
+    width: 100%;
+    height: 480px;
+}
  
