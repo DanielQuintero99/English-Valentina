@@ -79,6 +79,8 @@
     letter-spacing: 0.27em;
     text-transform: uppercase;
     color: #FFFFFF;
+    text-shadow: 2px 2px 3px black;
+
 }
 
 .text {
@@ -139,6 +141,9 @@
 }
 .textAbout{
     color: white;
+}
+a:hover{
+    color: #C3E3FA !important;
 }
 /* FIN ESTILOS LANDING */
 /* INICIO ESTILOS FOOTER */
